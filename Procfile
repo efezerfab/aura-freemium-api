@@ -1,1 +1,1 @@
-web: gunicorn app_tiktok_endpoint:app
+web: gunicorn app_endpoint:app
