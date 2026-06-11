@@ -1,7 +1,7 @@
 import os
 from flask import Flask, request, jsonify
 from database_freemium_methods import db
-from typeform_webhook import parse_typeform_lead, parse_tally_lead
+from form_webhook import parse_typeform_lead, parse_tally_lead
 
 app = Flask(__name__)
 
